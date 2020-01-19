@@ -1,4 +1,4 @@
-all:
+all: clean
 	touch README.md
 	echo "# Guessinggame" >> README.md
 	echo "**The README was created:**" $$(date +"%D %T") >> README.md
